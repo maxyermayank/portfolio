@@ -7,7 +7,7 @@ export class GalleryService {
 
   constructor(private http: Http) { }
   getAbums() {
-    return this.http.get('http://jsonplaceholder.typicode.com/albums')
+    return this.http.get('//jsonplaceholder.typicode.com/albums')
       .map(res => res.json())
   }
 }

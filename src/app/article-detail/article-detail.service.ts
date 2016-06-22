@@ -7,7 +7,7 @@ export class ArticleDetailService {
 
   constructor(private http: Http) { }
   getArticleById(id) {
-    return this.http.get(`http://jsonplaceholder.typicode.com/posts/${id}`)
+    return this.http.get(`//jsonplaceholder.typicode.com/posts/${id}`)
       .map(res => res.json());
   }
 }

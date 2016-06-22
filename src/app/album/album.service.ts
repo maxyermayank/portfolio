@@ -7,7 +7,7 @@ export class AlbumService {
 
   constructor(private http: Http) { }
   getAlbumById(id) {
-    return this.http.get(`http://jsonplaceholder.typicode.com/albums/${id}`)
+    return this.http.get(`//jsonplaceholder.typicode.com/albums/${id}`)
       .map(res => res.json());
   }
 }
