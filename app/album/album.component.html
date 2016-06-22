@@ -1,0 +1,21 @@
+<!--<pre>
+  {{ (album | async) | json }}
+</pre>-->
+<!--*ngIf="album"-->
+<div class="container">
+  <!--<button md-raised-button color="primary"><a [routerLink]="['/gallery']">Back To Gallery</a></button>-->
+  <md-card>
+    <md-card-header>
+      <md-card-title>
+        <h2>{{(album | async)?.title}}</h2>
+      </md-card-title>
+    </md-card-header>
+    <!--<md-card-content>
+      {{(album | async)?.body}}
+    </md-card-content>-->
+    <md-card-actions>
+      <button md-raised-button color="warn">LIKE</button>
+      <button md-raised-button color="accent">SHARE</button>
+    </md-card-actions>
+  </md-card>
+</div>

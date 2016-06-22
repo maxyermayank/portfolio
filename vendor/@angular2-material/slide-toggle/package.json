@@ -1,0 +1,55 @@
+{
+  "name": "@angular2-material/slide-toggle",
+  "version": "2.0.0-alpha.5-2",
+  "description": "Angular 2 Material Slide Toggle",
+  "main": "./slide-toggle.js",
+  "typings": "./slide-toggle.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/material2.git"
+  },
+  "keywords": [
+    "angular",
+    "material",
+    "material design",
+    "components",
+    "slide-toggle",
+    "switch",
+    "toggle"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angular/material2/issues"
+  },
+  "homepage": "https://github.com/angular/material2#readme",
+  "peerDependencies": {
+    "@angular2-material/core": "2.0.0-alpha.5-2"
+  },
+  "_id": "@angular2-material/slide-toggle@2.0.0-alpha.5-2",
+  "scripts": {},
+  "_shasum": "a2c964583d0b9130472be33816995b19e8cb7d2e",
+  "_from": "@angular2-material/slide-toggle@>=2.0.0-alpha.5-2 <3.0.0",
+  "_resolved": "https://registry.npmjs.org/@angular2-material/slide-toggle/-/slide-toggle-2.0.0-alpha.5-2.tgz",
+  "_npmVersion": "3.7.5",
+  "_nodeVersion": "5.7.0",
+  "_npmUser": {
+    "name": "angular2-material",
+    "email": "angular-core+npm@google.com"
+  },
+  "dist": {
+    "shasum": "a2c964583d0b9130472be33816995b19e8cb7d2e",
+    "tarball": "https://registry.npmjs.org/@angular2-material/slide-toggle/-/slide-toggle-2.0.0-alpha.5-2.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "angular2-material",
+      "email": "angular-core+npm@google.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/slide-toggle-2.0.0-alpha.5-2.tgz_1464814674438_0.3337273374199867"
+  },
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "@angular2-material/grid-list",
+  "version": "2.0.0-alpha.5-2",
+  "description": "Angular 2 Material grid list",
+  "main": "./grid-list.js",
+  "typings": "./grid-list.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/material2.git"
+  },
+  "keywords": [
+    "angular",
+    "material",
+    "material design",
+    "components",
+    "grid-list",
+    "list",
+    "tiles"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angular/material2/issues"
+  },
+  "homepage": "https://github.com/angular/material2#readme",
+  "peerDependencies": {
+    "@angular2-material/core": "2.0.0-alpha.5-2"
+  },
+  "_id": "@angular2-material/grid-list@2.0.0-alpha.5-2",
+  "scripts": {},
+  "_shasum": "6dee09877960ebf9085709729be3de0a16aef9d9",
+  "_from": "@angular2-material/grid-list@>=2.0.0-alpha.5-2 <3.0.0",
+  "_resolved": "https://registry.npmjs.org/@angular2-material/grid-list/-/grid-list-2.0.0-alpha.5-2.tgz",
+  "_npmVersion": "3.7.5",
+  "_nodeVersion": "5.7.0",
+  "_npmUser": {
+    "name": "angular2-material",
+    "email": "angular-core+npm@google.com"
+  },
+  "dist": {
+    "shasum": "6dee09877960ebf9085709729be3de0a16aef9d9",
+    "tarball": "https://registry.npmjs.org/@angular2-material/grid-list/-/grid-list-2.0.0-alpha.5-2.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "angular2-material",
+      "email": "angular-core+npm@google.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/grid-list-2.0.0-alpha.5-2.tgz_1464814634863_0.2926776581443846"
+  },
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}

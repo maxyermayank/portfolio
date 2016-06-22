@@ -1,0 +1,23 @@
+<h2>Gallery</h2>
+<div class="container">
+  <md-grid-list md-cols-gt-md="12" md-cols-sm="3" md-cols-md="8" md-row-height-gt-md="1:1" md-row-height="4:3" md-gutter-gt-md="16px"
+    md-gutter-gt-sm="8px" gutterSize="4px" [style.background]="'lightblue'">
+    <md-grid-tile *ngFor="let album of albums | async" [rowSpan]="album.id" [colSpan]="album.id">
+      <md-card style="margin-bottom: 10px; width: 250px; height: 300px;">
+        <md-card-header>
+          <md-card-title (click)="onSelect(album.id)">
+            <h4>{{album.title}}</h4>
+          </md-card-title>
+        </md-card-header>
+        <img md-card-image src="https://scontent-dfw1-1.xx.fbcdn.net/t31.0-8/177295_366017553484023_1753782257_o.jpg" width="200px"
+          height="200px">
+        <md-card-actions>
+          <button md-raised-button color="warn">LIKE</button>
+          <button md-raised-button color="accent">SHARE</button>
+        </md-card-actions>
+      </md-card>
+    </md-grid-tile>
+  </md-grid-list>
+
+
+</div>
